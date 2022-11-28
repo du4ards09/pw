@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/reserva.css">
+    <title>Botanic_Hotel</title>
+  </head>
+  <body>
+        <ul class="nav justify-content-center">
+            <div class="row">
+            <div class="col">
+                <a class="navbar-brand">
+                    <img src="images/Cópia de Botanical Gardens (1).png" width="45" height="45" class="d-inline-block align-top" alt="">
+                </a>
+            </div>
+            <div class="col">
+            <li class="nav-item">
+              <a class="nav-link disabled" href="index.html"  style="color: #bbae8d;">Home</a>
+            </li>
+            </div>
+            <div class="col">
+            <li class="nav-item">
+              <a class="nav-link disabled" href="fundaçao.html"  style="color: #bbae8d;">Fundação</a>
+            </li>
+            </div>
+            <div class="col-">
+            <li class="nav-item">
+              <a class="nav-link disabled" href="galeria.html"  style="color: #bbae8d;">Galeria</a>
+            </li>
+            </div>
+            <div class="col">
+            <li class="nav-item">
+                <a class="nav-link disabled" href="reserva.html" style="color:#bbae8d;">Reserva</a>
+              </li>
+            </div>
+          </ul>
+        </div>
+      <!--APARTIR DAQUI COMEÇA O FORMULARIO -->
+      <div class="container-fluid">
+        <blockquote class="blockquote text-center">
+          <p class="mb-3">Reserve em nossa Pousada!</p>
+        </blockquote>
+        <br>
+        <!--acaba os titulos-->
+        <form>
+            <div class="row">
+            <div class="qtdeHospede">
+              <h4>Digite a quantidade de Hospedes:</h4>
+              <input type="text" class="form-control" placeholder="Nº de Hóspedes" required id="qtdeHospede">
+            </div>
+            <br>
+            <div class="qtdeDiaria">
+              <h4>Digite a quantidade de Diárias:</h4>
+              <input type="text" class="form-control" placeholder="Nº de Diárias" required id="qtdeDiaria">
+            </div>
+          </div>
+        </form> 
+        <br>
+        <div class="form-group">
+        <label for="exampleFormControlSelect1">Suites Oferecidas:</label>
+        <select class="form-control" id="slcSuite">
+            <option value="0">Selecione...</option>
+            <option value="1">Suite Simples</option>
+            <option value="2">Paronama Suite</option>
+            <option value="3">Hideaway Villa</option>
+            <option value="4">Hideaway Villa Suite</option>
+            <option value="5">Botanical Villa</option>
+            <option value="6">Botanical Villa com piscina de imersão</option>
+          </select>
+        </div>
+      </form>
+  
+      <form action="dadoR" name="form">
+      <div class="gender-details">
+         <span class="refeição">Refeições:</span>
+           <div class="category" id="seila">
+            <br>
+          <label class="dot-1">
+              <span class="dot one"></span>
+                 <span class="gender"></span>
+                    <input type="radio" id="comida" name="rdEntrega" value="1"> Café da Manhã</label>
+          <label class="dot-2">
+              <span class="dot two"></span>
+                 <span class="gender"></span>
+                    <input type="radio" id="comida" name="rdEntrega" value="2"> Meia pensão</label>                         
+         <label class="dot-3">
+              <span class="dot three"></span>
+                  <span class="gender"></span>
+                     <input type="radio" id="comida" name="rdEntrega" value="3"> Pensão Completa</label>
+      </div>
+      <br>
+      <div class="Titulo2">
+        Serviços Adicionais:
+      </div>
+      <br>
+        <div class="col-2">
+          <input type="checkbox" id="traslado" name="embalagem"> Traslado
+      </div>
+      <div class="col-2">
+        <input type="checkbox" id="tuor" name="cartao"> City Tour
+      </div>
+      <div class="col-2">
+        <input type="checkbox" id="passeio" name="cartao"> Passeio
+      </div>
+      <br>
+      <div class="button">
+        <input type="button" value="Calcular" onclick="calcular()" style="background-color: #2A3518;">
+      </div>
+      </form>
+      <hr>
+      <h1>Valor Reserva:</h1>
+      <br>
+      <div id="nomeProduto" style="color: #ffffff;"></div>
+        <br>
+        <div id="valorUnitario"  style="color: #ffffff;"></div>
+        <br>
+        <div id="adicionais"  style="color: #ffffff;"></div>
+        <br>
+        <div id="diaria"  style="color: #ffffff;"></div>
+        <br>
+        <div id="comida1"  style="color: #ffffff;"></div>
+        <br>
+        <div id="valorTotal"  style="color: #ffffff;"></div>
+      <br>
+         
+      </div><!--termina o container-->
+      
+    
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="js/reserva.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+  
+ 
+</html>
