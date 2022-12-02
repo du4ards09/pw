@@ -1,0 +1,90 @@
+body{
+    background-image: linear-gradient(to right, #bbae8d, #2A3518);
+}
+
+.nav{
+    background-color: #2A3518;
+    font-size: 70%;
+    width: 100.8%;
+    height: 19000%;
+    margin-left: -0.8%;
+}
+.slide{
+    padding-left: 1%;
+    width: 99%;
+    margin-top: 0.7%;
+}
+.text1{
+    width: 99.2%;
+}
+.desc1{
+    width: 50%;
+    margin-left: 35%;
+    margin-top: 2%;
+    font-size: 166%;
+    color:#2A3518 ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.desc2{
+       width: 50%;
+    margin-left: 40%;
+    margin-top: 2%;
+    font-size: 170%;
+    color:#2A3518 ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.desc3{
+    width: 45%;
+    margin-left: 82%;
+    margin-top: 5%;
+    font-size: 170%;
+    color:#2A3518 ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+.text2{
+    width: 50%;
+    font-size: 190%;
+    color: #000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 40%;
+    margin-top: 1%;
+}
+.cards{
+    
+    width: 99%;
+    margin-top: 1%;
+    color: #000;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.card{
+    margin-left: 4%;
+    background-color:#605824;
+}
+footer{
+    background-color: #2A3518 ;
+    width: 100%;
+    margin-top: 2%;
+    padding-left: 8%;
+    padding-top: 0.9%;
+    color: #686256;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.roda{
+    background-color: #2A3518 ;
+    margin-left: -0.9%;
+    width: 99%;
+    padding-bottom: 0.2%;
+     font-size: 100%;
+}
+h5{
+    color: #ffff;
+}
+h1{
+    font-family: century gothic;
+    color: rgb(100, 100, 100);
+    text-align: center;
+}
+.jumbotron{
+    background-color: #616854;
+}
