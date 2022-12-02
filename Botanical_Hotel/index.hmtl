@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="D:\PW-1\botanic_hotel\css\reset.css"></link>
+    <link rel="stylesheet" href="css/estilo.css"></link>
+    <title>botanic_hotel</title>
+  </head>
+  <body background="#BBAE8D">
+        <ul class="nav justify-content-center">
+            <div class="row">
+            <div class="col">
+                <a class="navbar-brand">
+                    <img src="images/Cópia de Botanical Gardens (1).png" width="45" height="45" class="d-inline-block align-top" alt="">
+                  </a>
+            </div>
+            <div class="col">
+            <li class="nav-item">
+              <a class="nav-link disabled" href="index.html">Home</a>
+            </li>
+            </div>
+            <div class="col">
+            <li class="nav-item">
+              <a class="nav-link disabled" href="fundaçao.html">Fundação</a>
+            </li>
+            </div>
+            <div class="col">
+            <li class="nav-item">
+              <a class="nav-link disabled" href="galeria.html">Galeria</a>
+            </li>
+          </div>
+            <div class="col">
+            <li class="nav-item">
+                <a class="nav-link disabled" href="reserva.html">Reserva</a>
+              </li>
+            </div>
+          </ul>
+        </div>
+        
+            
+        <div class="slide">
+        <div class="row">
+            <div class="col">
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="images/mergulhoo (2).png" alt="Praia com faixa de areia amarelinha e um mar azul limpinho!">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Atrações da Cidade</h5>
+                      <!-- <p>Venha conhecer essa praia que está super quentinho!</p> -->
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="images/mergulhoo (1).png" alt="Praia com mar verdinho com algumas pedras e uma areia quentinha!">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="images/mergulhoo.png" alt="Pôr-do-sol numa praia charmosa!">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Próximo</span>
+                </a>
+              </div> <!-- fecha o caroussel-->
+            </div> <!-- fecha a coluna-->
+  
+  
+            <div class="col">
+              <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="images/casa2.png" alt="Praia com faixa de areia amarelinha e um mar azul limpinho!">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Botanical Hotel</h5>
+                      <!-- <p>Venha conhecer essa praia que está super quentinho!</p> -->
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="images/casa1.png" alt="Praia com mar verdinho com algumas pedras e uma areia quentinha!">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="images/casa3.png" alt="Pôr-do-sol numa praia charmosa!">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Próximo</span>
+                </a>
+              </div> <!-- fecha o caroussel-->
+            </div> <!-- fecha a coluna-->
+
+            <div class="col">
+              <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators3" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="images/borboletario .png" alt="Praia com faixa de areia amarelinha e um mar azul limpinho!">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Borboletario</h5>
+                      <!-- <p>Venha conhecer essa praia que está super quentinho!</p> -->
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="images/borboletario  (1).png" alt="Praia com mar verdinho com algumas pedras e uma areia quentinha!">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="images/borboletario  (2).png" alt="Pôr-do-sol numa praia charmosa!">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Próximo</span>
+                </a>
+              </div> <!-- fecha o caroussel -->
+            </div> <!-- fecha a coluna -->
+          </div> <!-- fecha a linha -->
+        </div> <!--termina div slide -->
+
+        <div class="text2">
+          <div class="row">
+            <div class="col">
+              Quartos mais Reservados 
+            </div>
+          </div>
+        </div>
+
+        <div class="cards"> <!--começa cards -->
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="images/sla.png" alt="Imagem de capa do card">
+              <div class="card-body">
+                <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="images/sla1.png" alt="Imagem de capa do card">
+              <div class="card-body">
+                <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="images/sla2.png" alt="Imagem de capa do card">
+              <div class="card-body">
+                <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="images/sla3.png" alt="Imagem de capa do card">
+              <div class="card-body">
+                <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="images/sla4.png" alt="Imagem de capa do card">
+              <div class="card-body">
+                <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="images/sla5.png" alt="Imagem de capa do card">
+              <div class="card-body">
+                <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!--termina cards-->
+
+      <footer>
+        <div class="roda">
+        <div class="row">
+          <div class="col">
+            Instagram: Botanical_hotel
+          </div>
+          <div class="col">
+            E-mail: botanicalhotel_62@gmail.com
+          </div>
+          <div class="col">
+            Rua Elidio Goncalves,Campos do Jordão,SP
+          </div>
+        </div>
+      </div>
+      </footer>
+      </div> <!--termina o conteiner-->
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
