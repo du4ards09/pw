@@ -1,0 +1,332 @@
+body{
+    background-color: #BBAE8D;
+    overflow-x: hidden; 
+}
+.navbar2 {
+  margin-left: 200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#pesquisar{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 45%;
+}
+/* Style the navbar */
+#navbar {
+    overflow: hidden;
+    background-color: rgb(130, 121, 125);
+    background-image: linear-gradient(#2A3518,#BBAE8D );
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  /* Navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px;
+    margin-left: 8%;
+    text-decoration: none;
+  }
+  a {
+    list-style:none;
+}
+a.href {
+    width: 100px;
+    height:36px;
+    line-height:36px;
+    text-align: center;
+    display:inline-block;
+}
+a:hover {
+    background-color:#2A3518;
+}
+ 
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  .box{
+    margin-top: 25%;
+    color:white;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    transform:translate(-50x ,-50y);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 15px;
+    width: 70%;
+   
+}
+#exampleFormControlSelect1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.form-control{
+    width: 90%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #2A3518;
+    margin-left: 4%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+b{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 30%;
+}
+fieldset{
+    border: 2px solid #ffffff;
+}
+.legend{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid #2A3518;
+    padding: 10px;
+    text-align:center;
+    width: 90%;
+    margin-left: 5%;
+    background-color: #2A3518;
+    border-radius: 8px;
+    border: 3px solid #2A3518;
+}
+legend{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid #2A3518;
+    padding: 10px;
+    text-align:center;
+    width: 70%;
+    margin-left: 12%;
+    background-color:#2A3518;
+    border-radius: 8px;
+    border: 3px solid #ffffff;
+}
+.refeicao{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 10%;
+}
+.checkbox{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 10%;
+}
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    margin-left: 9%;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 80%;
+    letter-spacing: 2px;
+}
+.labelInput{
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.inputUser:focus ~ .labelInput, .inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 10px;
+    color: #cecece;
+}
+#button{
+    background-image: linear-gradient(to right, #304e1d , #2A3518);
+    background-color: #000000;
+    width: 40%;
+    margin-left: 30%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 8%;
+}
+#button:hover{
+    background-image: linear-gradient(to right, #030303 , #11170e);
+
+}
+.footer{
+    margin-top: 110%;
+	background-color: #2A3518;
+	width: 100%;
+	height:100%;
+	float: left;
+	font-size: 18px;
+	padding: 50px 10px 50px 10px;
+}
+.footer .left{ 
+	width:100%; 
+	float:left; 
+	border-bottom:1px #2A3518 solid;
+	border-right:0; 
+	margin-bottom:20px; 
+    padding-bottom:20px;
+}
+.footer .title-footer {
+	color: #ffffff;
+	font-family: 'DM Sans', sans-serif;
+	font-weight: initial;
+    font-size:26px;
+    width:100%;
+    float:left;
+    margin-bottom:15px;
+}
+.footer .title-footer span{
+	color:  #BBAE8D;
+	font-family:'DM Sans', sans-serif;
+	font-weight: bold;
+}
+/* Footer links */
+.footer .links{
+	
+	width: 100%;
+	float: left;
+	color:  #ffffff;
+	margin-bottom: 20px;
+	padding: 0;
+}
+.footer .links a{
+    display: block;
+    line-height: 33px;
+    text-decoration: none;
+    color: #fff;
+    font-family:'DM Sans', sans-serif;
+    font-size:16px;
+    transition:0.3s;
+}
+.footer .links a:hover { color:#094b1e; }
+.footer .Copyright{
+	font-family:'DM Sans', sans-serif;
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+/*Rede Sociais*/
+.footer .footer-icons{
+	
+	width:100%;
+	float:left;
+	margin-bottom:20px;
+}
+.footer .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #224127;
+	border-radius: 50px;
+    font-family:'DM Sans', sans-serif;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;	
+	line-height: 35px;
+	margin-bottom: 5px;
+	transition:0.3s;
+}
+.footer .footer-icons a:hover{ background-color:#2fcacf; }
+/*Right*/
+.footer .right   { width:100%; float:left; }
+.footer .right p {
+	font-family: 'DM Sans', sans-serif;
+	font-weight: initial;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 30px;
+	color: #ffffff;
+}
+/*formulario*/
+.footer form { width:100%; float:left; }
+.footer form input,
+.footer form textarea{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  #3f4830;
+	box-shadow: 0 1px 0 0 #2A3518;
+	border: none;
+	resize: none;
+    outline: none;
+	font: inherit;
+	font-size: 14px;
+	font-family:'DM Sans', sans-serif;
+	font-weight: normal;
+	color:  #d1d2d2;
+	width: 100%;
+	padding: 18px;
+}
+.footer ::-webkit-input-placeholder {
+	color:  #5c666b;
+}
+.footer ::-moz-placeholder {
+	color:  #5c666b;
+	opacity: 1;
+}
+.footer :-ms-input-placeholder{
+	color:  #5c666b;
+}
+.footer form input{
+	
+	width: 100%;
+	height: 55px;
+	float: left;
+	margin-bottom: 15px;
+}
+.footer form textarea{
+	height: 100px;
+	margin-bottom: 20px;
+}
+.footer form .btn{
+	border-radius: 3px;
+	background-image: linear-gradient(to right, #304e1d , #2A3518);
+	color: #ffffff;
+	border: 0;
+	padding: 15px 50px;
+	font-family: 'DM Sans', sans-serif;
+	font-weight: bold;
+	float: left;
+	cursor: pointer;
+    transition: 0.3s;
+}
+.footer form .btn:hover { background-color:  #143625; }
+/*Responsive*/
+@media (min-width: 1280px) {
+	.footer               { padding: 100px 50px 50px 100px; }
+	.footer .Copyright    { font-size: 16px; }
+	.footer form input,
+	.footer form textarea { width: 100%; float:left; }
+	.footer form button   { padding: 10px 35px; }
+}
+@media (min-width: 768px) {
+	
+	.footer .left         { width:48%; border-bottom:0; }
+	.footer .right        { width:48%; padding-left: 4%; border-left: 1px #222424 solid; } 
+	.footer form          { margin-top: 30px; }
+	.footer form          { display: block; }
+	.footer form button   { float: none; }
+}
+
